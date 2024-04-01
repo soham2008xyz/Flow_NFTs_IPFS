@@ -2452,13 +2452,13 @@
     abort-controller "^3.0.0"
     cross-fetch "^3.1.6"
 
-"@onflow/types@1.2.1", "@onflow/types@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@onflow/types/-/types-1.2.1.tgz#0a1974c3ce0d35b9ec42abfc000e095f4032ec50"
-  integrity sha512-heTwEDDcAnv3XzCqGEnIanl8OSeWtKH2kibGaZmIrOheRjpvU9br5b5Ibrx7FKwE9z2uKU4cupVR0c8dHro/dQ==
+"@onflow/types@1.3.0", "@onflow/types@^1.2.1":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@onflow/types/-/types-1.3.0.tgz#1ae69125828957ce28d565978539ca0d32fd39bc"
+  integrity sha512-0X9jjMuGMSa64yaWtOT7nIuT6z3Bixu1olXNTjTGJKF8aZsffs+k1cvM2V3MInHFoGImyM7xjJ4J3trRzJcGMg==
   dependencies:
     "@babel/runtime" "^7.18.6"
-    "@onflow/util-logger" "^1.3.1"
+    "@onflow/util-logger" "1.3.2"
 
 "@onflow/util-actor@^1.3.1":
   version "1.3.1"
@@ -2482,10 +2482,10 @@
   dependencies:
     "@babel/runtime" "^7.18.6"
 
-"@onflow/util-logger@^1.3.1":
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/@onflow/util-logger/-/util-logger-1.3.1.tgz#32239a93eb889df9d0191832f11c7a90eeb14240"
-  integrity sha512-LKsesUsrVFzaXO3K99Ifm8i+T1ofQNWixxiAei9WhbM2GlCBuaVj6OJ6ZF1eCnQOdwNGudYmxAx5mkFqHrOEEw==
+"@onflow/util-logger@1.3.2", "@onflow/util-logger@^1.3.1":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@onflow/util-logger/-/util-logger-1.3.2.tgz#22d3fde72903b46b91b1c590c0766439323e6c70"
+  integrity sha512-HyKepMEDOmCy5QE+y7/0cf1rsOTDAD4KmB70VHzUZZbTLV8/M9cOdTpkKJe/rVOLUDJ0ScenwYzIjpGV9HYx5A==
   dependencies:
     "@babel/runtime" "^7.18.6"
 
