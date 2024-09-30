@@ -1809,7 +1809,7 @@
   resolved "https://registry.yarnpkg.com/@babel/regjsgen/-/regjsgen-0.8.0.tgz#f0ba69b075e1f05fb2825b7fad991e7adbb18310"
   integrity sha512-x/rqGMdzj+fWZvCOYForTghzbtqPDZ5gPwaoNGHdgDfF2QA/XZbCBp4Moo5scrkAMPhB7z26XM/AaHuIJdgauA==
 
-"@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.16.3", "@babel/runtime@^7.18.6", "@babel/runtime@^7.18.9", "@babel/runtime@^7.23.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.16.3", "@babel/runtime@^7.18.6", "@babel/runtime@^7.18.9", "@babel/runtime@^7.23.2", "@babel/runtime@^7.8.4":
   version "7.24.7"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.24.7.tgz#f4f0d5530e8dbdf59b3451b9b3e594b6ba082e12"
   integrity sha512-UwgBRMjJP+xv857DCngvqXI3Iq6J4v0wXmwc6sapg+zyhbwmQX67LUEFrkK5tbyJ30jGuG3ZvWpBiB9LCy1kWw==
@@ -2476,17 +2476,29 @@
     eslint "^8.34.0"
     eslint-plugin-jsdoc "^46.9.0"
 
-"@onflow/fcl-core@1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@onflow/fcl-core/-/fcl-core-1.10.0.tgz#caf3ed4ff30f884a3a0689b605262497856596d5"
-  integrity sha512-2VVuw7HybQ9ZZTHOKQr86R47OkW20/kVc3I5z34U6VQ/AFzESVdvJYgkhSlHOZk+JX3MS8+y1advvpVPbiPYZA==
+"@onflow/config@1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@onflow/config/-/config-1.5.0.tgz#df58067e0a6d352d2e92437de533d3667b20c7ae"
+  integrity sha512-R7cW6x0n6QlaRtOF/lZiJbK2LdoNOIHQ52FXHv+mMrvD/4s3F9H8suZKR+v+WTUu0mAsI+OmOp3LzWrNocWqXQ==
+  dependencies:
+    "@babel/runtime" "^7.18.6"
+    "@onflow/util-actor" "1.3.3"
+    "@onflow/util-invariant" "1.2.3"
+    "@onflow/util-logger" "1.3.2"
+    eslint "^8.34.0"
+    eslint-plugin-jsdoc "^46.9.0"
+
+"@onflow/fcl-core@1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@onflow/fcl-core/-/fcl-core-1.11.0.tgz#82bacb4d8ac78221f879af1cd1beff7af8ce60ec"
+  integrity sha512-JJuPaEOdp5RNs8s1K2e0R5N3/af5dVsonHnWQpBAZ+Htd3X0uSo7Ko+vG8f6dWMOSCvSNjWclDkj5he3WJ0nTQ==
   dependencies:
     "@babel/runtime" "^7.18.6"
     "@improbable-eng/grpc-web" "^0.15.0"
-    "@onflow/config" "1.4.1"
+    "@onflow/config" "1.5.0"
     "@onflow/interaction" "0.0.11"
     "@onflow/rlp" "1.2.2"
-    "@onflow/sdk" "1.5.1"
+    "@onflow/sdk" "1.5.2"
     "@onflow/types" "1.4.0"
     "@onflow/util-actor" "1.3.3"
     "@onflow/util-address" "1.2.2"
@@ -2495,6 +2507,7 @@
     "@onflow/util-semver" "1.0.2"
     "@onflow/util-template" "1.2.2"
     "@onflow/util-uid" "1.2.2"
+    abort-controller "^3.0.0"
     cross-fetch "^3.1.6"
 
 "@onflow/fcl-wc@5.2.0":
@@ -2512,27 +2525,29 @@
     "@walletconnect/types" "^2.8.1"
     "@walletconnect/utils" "^2.8.1"
 
-"@onflow/fcl@1.11.0":
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/@onflow/fcl/-/fcl-1.11.0.tgz#d8e05dc55806122f16e7d75e6ef3e5f39972b8cd"
-  integrity sha512-MvrFNAQczZWegeZDJzs2L7B89JEZfekg0MGsFVr86IUpSZebZz95ca+Kk7hnE95yuxHd/Ox/K6PA1u4geSFvgw==
+"@onflow/fcl@1.12.0":
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/@onflow/fcl/-/fcl-1.12.0.tgz#802db006cc945ecd93ab2f58b430bd9ecb8d067f"
+  integrity sha512-kPYBBzMWOHhJTnk79hYPyP+HgriOPeYKuTHhkJRM2w8ydD8thsifQWDbODwWp3AlPb8ZV4MhS3Qxsg2xJExTrQ==
   dependencies:
     "@babel/runtime" "^7.18.6"
-    "@onflow/config" "1.4.1"
-    "@onflow/fcl-core" "1.10.0"
+    "@onflow/config" "1.5.0"
+    "@onflow/fcl-core" "1.11.0"
     "@onflow/fcl-wc" "5.2.0"
     "@onflow/interaction" "0.0.11"
     "@onflow/rlp" "1.2.2"
-    "@onflow/sdk" "1.5.1"
+    "@onflow/sdk" "1.5.2"
     "@onflow/types" "1.4.0"
     "@onflow/util-actor" "1.3.3"
     "@onflow/util-address" "1.2.2"
     "@onflow/util-invariant" "1.2.3"
     "@onflow/util-logger" "1.3.2"
+    "@onflow/util-rpc" "0.0.1"
     "@onflow/util-semver" "1.0.2"
     "@onflow/util-template" "1.2.2"
     "@onflow/util-uid" "1.2.2"
     "@walletconnect/types" "^2.13.2"
+    abort-controller "^3.0.0"
     cross-fetch "^3.1.6"
     events "^3.3.0"
     sha3 "^2.1.4"
@@ -2550,16 +2565,16 @@
     "@babel/runtime" "^7.18.6"
     buffer "^6.0.3"
 
-"@onflow/sdk@1.5.1":
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/@onflow/sdk/-/sdk-1.5.1.tgz#7d21519aa83af66b598ec497c7dd28fdfbaa6912"
-  integrity sha512-WQz9a5B2Jc6Ezy4kb/tywGmPus/LUc+pyCN2zsJiuzXl9tZh7ixwr6N1ArbiUWcJ/bGtmhlSrFd7eKYljxsoOw==
+"@onflow/sdk@1.5.2":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@onflow/sdk/-/sdk-1.5.2.tgz#6fab88f15046d3cbb8dbef3b8e57a3e1d496d1ec"
+  integrity sha512-8/u3CIeqc8Joj1Ru4DQOrpsc6duisE3wKhnn0LtwLol/Y7KKJdCAIOpYJe5HlKftRhRJ/US/OV0wNABNkRWkmQ==
   dependencies:
     "@babel/runtime" "^7.18.6"
-    "@onflow/config" "1.4.1"
+    "@onflow/config" "1.5.0"
     "@onflow/rlp" "1.2.2"
     "@onflow/transport-http" "1.10.1"
-    "@onflow/typedefs" "1.3.0"
+    "@onflow/typedefs" "1.3.1"
     "@onflow/util-actor" "1.3.3"
     "@onflow/util-address" "1.2.2"
     "@onflow/util-invariant" "1.2.3"
@@ -2586,10 +2601,10 @@
     isomorphic-ws "^5.0.0"
     ws "^8.14.2"
 
-"@onflow/typedefs@1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@onflow/typedefs/-/typedefs-1.3.0.tgz#581d5200b95d59d7dddc90f750aa56b33ddd036b"
-  integrity sha512-oEJkF6/xpaktWgFy5E3F9yssEqVw55rFpryYJiDO4w6XP0MhwDZpey2RsvEH54S2ZED6s743+LmR4U5iY057wg==
+"@onflow/typedefs@1.3.1":
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/@onflow/typedefs/-/typedefs-1.3.1.tgz#7d3a6f8d0c6240f457e7fbbe87489fae0b5db106"
+  integrity sha512-rYMSt2KRr1DG5Z9CQu4PzyT1uKPNZRrjHBTAEinjvcFeqdHF/BW93Wzvx/yYK+RF4aepDLrvkshjAHPfwUkh2g==
   dependencies:
     "@babel/runtime" "^7.18.6"
 
@@ -2627,6 +2642,13 @@
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/@onflow/util-logger/-/util-logger-1.3.2.tgz#22d3fde72903b46b91b1c590c0766439323e6c70"
   integrity sha512-HyKepMEDOmCy5QE+y7/0cf1rsOTDAD4KmB70VHzUZZbTLV8/M9cOdTpkKJe/rVOLUDJ0ScenwYzIjpGV9HYx5A==
+  dependencies:
+    "@babel/runtime" "^7.18.6"
+
+"@onflow/util-rpc@0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@onflow/util-rpc/-/util-rpc-0.0.1.tgz#56d7d0c9fb99e6a7319441571122f80f9322c316"
+  integrity sha512-mw52nF2434/PJ7FuVmmmOCOw698sXqK6YKYeHSJLQH4qybslQR34APw7Ra8oxslAqKxDy/RO6SZjnxoznE81RQ==
   dependencies:
     "@babel/runtime" "^7.18.6"
 
@@ -3086,13 +3108,12 @@
     lz-string "^1.5.0"
     pretty-format "^27.0.2"
 
-"@testing-library/jest-dom@^6.4.8":
-  version "6.4.8"
-  resolved "https://registry.yarnpkg.com/@testing-library/jest-dom/-/jest-dom-6.4.8.tgz#9c435742b20c6183d4e7034f2b329d562c079daa"
-  integrity sha512-JD0G+Zc38f5MBHA4NgxQMR5XtO5Jx9g86jqturNTt2WUfRmLDIY7iKkWHDCCTiDuFMre6nxAD5wHw9W5kI4rGw==
+"@testing-library/jest-dom@^6.5.0":
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/@testing-library/jest-dom/-/jest-dom-6.5.0.tgz#50484da3f80fb222a853479f618a9ce5c47bfe54"
+  integrity sha512-xGGHpBXYSHUUr6XsKBfs85TWlYKpTc37cSBBVrXcib2MkHLboWlkClhWF37JKlDb9KEq3dHs+f2xR7XJEWGBxA==
   dependencies:
     "@adobe/css-tools" "^4.4.0"
-    "@babel/runtime" "^7.9.2"
     aria-query "^5.0.0"
     chalk "^3.0.0"
     css.escape "^1.5.1"
@@ -11746,10 +11767,10 @@ wbuf@^1.1.0, wbuf@^1.7.3:
   dependencies:
     minimalistic-assert "^1.0.0"
 
-web-vitals@^4.2.1:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/web-vitals/-/web-vitals-4.2.1.tgz#67eec387ddd0ef4c25574a01ab9dae723eee2b97"
-  integrity sha512-U6bAxeudnhDqcXNl50JC4hLlqox9DZnngxfISZm3DMZnonW35xtJOVUc091L+DOY+6hVZVpKXoiCP0RiT6339Q==
+web-vitals@^4.2.3:
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/web-vitals/-/web-vitals-4.2.3.tgz#270c4baecfbc6ec6fc15da1989e465e5f9b94fb7"
+  integrity sha512-/CFAm1mNxSmOj6i0Co+iGFJ58OS4NRGVP+AWS/l509uIK5a1bSoIVaHz/ZumpHTfHSZBpgrJ+wjfpAOrTHok5Q==
 
 webidl-conversions@^3.0.0:
   version "3.0.1"
