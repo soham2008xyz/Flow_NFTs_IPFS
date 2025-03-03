@@ -2657,10 +2657,10 @@
     eslint "^8.57.1"
     eslint-plugin-jsdoc "^46.10.1"
 
-"@onflow/fcl-core@1.13.4":
-  version "1.13.4"
-  resolved "https://registry.yarnpkg.com/@onflow/fcl-core/-/fcl-core-1.13.4.tgz#f8571571421745a7bf6fc54b8e9e665695f92d3d"
-  integrity sha512-y4wk8wd88mHSRj2zHMSgrhEcuwXxp1F0LbOKTROU9pxHHg8ayjqzNWaminkp3yUWI3s5GE4OfVRjnKazAMVSYA==
+"@onflow/fcl-core@1.13.5":
+  version "1.13.5"
+  resolved "https://registry.yarnpkg.com/@onflow/fcl-core/-/fcl-core-1.13.5.tgz#88214e6f5c878d68c086f5469f48cc187307e56a"
+  integrity sha512-pfI4mhk2yvMHk1XKZnUpTvqiQs7kCzPujiwJbLY/B1fEGvbrMRUTRHSKCncrzH8C+Gbtd/t/iDajYBgY/oAB+g==
   dependencies:
     "@babel/runtime" "^7.25.7"
     "@improbable-eng/grpc-web" "^0.15.0"
@@ -2680,10 +2680,10 @@
     abort-controller "^3.0.0"
     cross-fetch "^4.0.0"
 
-"@onflow/fcl-wc@5.5.4":
-  version "5.5.4"
-  resolved "https://registry.yarnpkg.com/@onflow/fcl-wc/-/fcl-wc-5.5.4.tgz#426563d91f16821d286f8aeacf36aea7148d77f6"
-  integrity sha512-o2r25gapkDvGLIVLy4RjUUqcwrwYn9xyXYR6jKlYhyyqHHd1Npf9H1TtBTTl77Q+bp/0/PdxZcxPjUZd/NLoUg==
+"@onflow/fcl-wc@5.5.5":
+  version "5.5.5"
+  resolved "https://registry.yarnpkg.com/@onflow/fcl-wc/-/fcl-wc-5.5.5.tgz#31a1296fe9034a09c655c248c27462251f534ad4"
+  integrity sha512-UyhDN19dYvb3baY/PU/+BB4cKmwndFsrPQqlzXoYZYHcwqTa3xAUoxzL4KsY2sLZa0xvQRlY71kiZm6d175HOg==
   dependencies:
     "@babel/runtime" "^7.25.7"
     "@onflow/config" "1.5.1"
@@ -2698,15 +2698,15 @@
     preact "^10.24.3"
     tailwindcss "^3.4.14"
 
-"@onflow/fcl@1.13.4":
-  version "1.13.4"
-  resolved "https://registry.yarnpkg.com/@onflow/fcl/-/fcl-1.13.4.tgz#62125d5fc1a651892c2b2339295680da8dc792c0"
-  integrity sha512-7W4g0gA1lSi+u7GIXhDEX0/cB4TDUn8H/VnpY8wD1GRsFmYpTm1wlY724jFynNNty96aTgdLhGpoIACMGiicZQ==
+"@onflow/fcl@1.13.5":
+  version "1.13.5"
+  resolved "https://registry.yarnpkg.com/@onflow/fcl/-/fcl-1.13.5.tgz#cd60ce64055ad0a7cdbf035b960ff1d3c613a3fd"
+  integrity sha512-+WSXGPKHi4nJLcL0ZI9CH+80VC3SvcL1IxTHchVonv/N3RCDiHukDLnyzQO0ce5RgcCip+Ep3MriYl703KnW/w==
   dependencies:
     "@babel/runtime" "^7.25.7"
     "@onflow/config" "1.5.1"
-    "@onflow/fcl-core" "1.13.4"
-    "@onflow/fcl-wc" "5.5.4"
+    "@onflow/fcl-core" "1.13.5"
+    "@onflow/fcl-wc" "5.5.5"
     "@onflow/interaction" "0.0.11"
     "@onflow/rlp" "1.2.3"
     "@onflow/sdk" "1.5.6"
