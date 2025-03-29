@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@onflow/fcl": "1.13.5",
+    "@onflow/fcl": "1.15.0",
     "@onflow/types": "1.4.1",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^15.0.7",
