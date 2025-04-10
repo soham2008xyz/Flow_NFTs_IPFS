@@ -2657,18 +2657,18 @@
     eslint "^8.57.1"
     eslint-plugin-jsdoc "^46.10.1"
 
-"@onflow/fcl-core@1.13.4":
-  version "1.13.4"
-  resolved "https://registry.yarnpkg.com/@onflow/fcl-core/-/fcl-core-1.13.4.tgz#f8571571421745a7bf6fc54b8e9e665695f92d3d"
-  integrity sha512-y4wk8wd88mHSRj2zHMSgrhEcuwXxp1F0LbOKTROU9pxHHg8ayjqzNWaminkp3yUWI3s5GE4OfVRjnKazAMVSYA==
+"@onflow/fcl-core@1.16.0":
+  version "1.16.0"
+  resolved "https://registry.yarnpkg.com/@onflow/fcl-core/-/fcl-core-1.16.0.tgz#5298fa746a20d56cb1dd10348d61d7f5301c1896"
+  integrity sha512-VZCq2flJ/le8SQVzeWWVornAJhnFKfSm4ui9aeFB+msHsH3GqdrpyDHH5wmv8iAn+wRD3zqXIpRmJ2rLVmY3fA==
   dependencies:
     "@babel/runtime" "^7.25.7"
     "@improbable-eng/grpc-web" "^0.15.0"
     "@onflow/config" "1.5.1"
     "@onflow/interaction" "0.0.11"
     "@onflow/rlp" "1.2.3"
-    "@onflow/sdk" "1.5.6"
-    "@onflow/transport-http" "1.10.5"
+    "@onflow/sdk" "1.7.0"
+    "@onflow/transport-http" "1.12.0"
     "@onflow/types" "1.4.1"
     "@onflow/util-actor" "1.3.4"
     "@onflow/util-address" "1.2.3"
@@ -2680,10 +2680,10 @@
     abort-controller "^3.0.0"
     cross-fetch "^4.0.0"
 
-"@onflow/fcl-wc@5.5.4":
-  version "5.5.4"
-  resolved "https://registry.yarnpkg.com/@onflow/fcl-wc/-/fcl-wc-5.5.4.tgz#426563d91f16821d286f8aeacf36aea7148d77f6"
-  integrity sha512-o2r25gapkDvGLIVLy4RjUUqcwrwYn9xyXYR6jKlYhyyqHHd1Npf9H1TtBTTl77Q+bp/0/PdxZcxPjUZd/NLoUg==
+"@onflow/fcl-wc@5.6.4":
+  version "5.6.4"
+  resolved "https://registry.yarnpkg.com/@onflow/fcl-wc/-/fcl-wc-5.6.4.tgz#591bf7301903cabf2c18f7e95a5095ca6587551c"
+  integrity sha512-4JpUnn+8EPotk0MlOisgEl89uI5Wfq7HYfDuMcVCdSS0/uxPIMrUFbz9/20rdeB6WxPoVIjn8344ydJUAiribA==
   dependencies:
     "@babel/runtime" "^7.25.7"
     "@onflow/config" "1.5.1"
@@ -2698,18 +2698,18 @@
     preact "^10.24.3"
     tailwindcss "^3.4.14"
 
-"@onflow/fcl@1.13.4":
-  version "1.13.4"
-  resolved "https://registry.yarnpkg.com/@onflow/fcl/-/fcl-1.13.4.tgz#62125d5fc1a651892c2b2339295680da8dc792c0"
-  integrity sha512-7W4g0gA1lSi+u7GIXhDEX0/cB4TDUn8H/VnpY8wD1GRsFmYpTm1wlY724jFynNNty96aTgdLhGpoIACMGiicZQ==
+"@onflow/fcl@1.15.0":
+  version "1.15.0"
+  resolved "https://registry.yarnpkg.com/@onflow/fcl/-/fcl-1.15.0.tgz#6bfe7d79fa752e2c3c2dd095f4ade648d261d13a"
+  integrity sha512-6Gu7eGSbYTP2XM2QAX/9TzabJRVzz1vOVk+NCv0SLqdpEbIv+JgpZeUjXBzwlDGul96Fmz9+COIgxfYlwzUEcA==
   dependencies:
     "@babel/runtime" "^7.25.7"
     "@onflow/config" "1.5.1"
-    "@onflow/fcl-core" "1.13.4"
-    "@onflow/fcl-wc" "5.5.4"
+    "@onflow/fcl-core" "1.16.0"
+    "@onflow/fcl-wc" "5.6.4"
     "@onflow/interaction" "0.0.11"
     "@onflow/rlp" "1.2.3"
-    "@onflow/sdk" "1.5.6"
+    "@onflow/sdk" "1.7.0"
     "@onflow/types" "1.4.1"
     "@onflow/util-actor" "1.3.4"
     "@onflow/util-address" "1.2.3"
@@ -2738,16 +2738,16 @@
     "@babel/runtime" "^7.25.7"
     buffer "^6.0.3"
 
-"@onflow/sdk@1.5.6":
-  version "1.5.6"
-  resolved "https://registry.yarnpkg.com/@onflow/sdk/-/sdk-1.5.6.tgz#7a3308a9a9c21f90d45ce6f859539a6cc087eff8"
-  integrity sha512-bvk2V4FAYH8M/2kSQK9YnETK4FY564daMx2nQjochwKRWzkax22R5qquQMQ3nj6TQauouMmtNzgTS1JNCyuBcA==
+"@onflow/sdk@1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@onflow/sdk/-/sdk-1.7.0.tgz#9ea2e35c8e3fba9662baaa77e80bfb77de3b0fea"
+  integrity sha512-7XSC+R1qLI7I8sTMG2RYyakLmWJjACr1Rt7c/eBoFACyPPhZ0PE9vQo4N+CQvhWIWvOi+oUtmtDa8Gac0NSCeQ==
   dependencies:
     "@babel/runtime" "^7.25.7"
     "@onflow/config" "1.5.1"
     "@onflow/rlp" "1.2.3"
-    "@onflow/transport-http" "1.10.5"
-    "@onflow/typedefs" "1.4.0"
+    "@onflow/transport-http" "1.12.0"
+    "@onflow/typedefs" "1.4.1"
     "@onflow/util-actor" "1.3.4"
     "@onflow/util-address" "1.2.3"
     "@onflow/util-invariant" "1.2.4"
@@ -2758,10 +2758,10 @@
     sha3 "^2.1.4"
     uuid "^9.0.1"
 
-"@onflow/transport-http@1.10.5":
-  version "1.10.5"
-  resolved "https://registry.yarnpkg.com/@onflow/transport-http/-/transport-http-1.10.5.tgz#a946b125c8270a854e69706c76f70759df386f8c"
-  integrity sha512-Gh1TWLe/ZfntVWmvex3Itz6OPxLS6D6cWj9L+52IhgmZLdLNgQTDxyddCg2WaNsyKch20u7T3vHXPyOtN52yBA==
+"@onflow/transport-http@1.12.0":
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/@onflow/transport-http/-/transport-http-1.12.0.tgz#08862da503dba6e74c93d10a8e4da99251d917d2"
+  integrity sha512-QG6oUuD7VrOw0UILojcgWgYPf2yA5fOFQvXEl86DaDd7qSiBxufNOcw1sUZ1JkoipSOsvl5hT3LXrbzneIzU3A==
   dependencies:
     "@babel/runtime" "^7.25.7"
     "@onflow/util-address" "1.2.3"
@@ -2774,10 +2774,10 @@
     isomorphic-ws "^5.0.0"
     ws "^8.18.0"
 
-"@onflow/typedefs@1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@onflow/typedefs/-/typedefs-1.4.0.tgz#21963c4a334cb15f7759b90f25eee177d32885f6"
-  integrity sha512-7b4C3F4Ztayx6XdQz/7YoHMzZ6kzy37dLxdVCV/PAsAunq9Jfu32HQaf8a0NCk0L0aM7FS2zT1Om4k7b5KP4Xg==
+"@onflow/typedefs@1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@onflow/typedefs/-/typedefs-1.4.1.tgz#828871aee224b7d780e9a7c1350e3eaa0a098fe9"
+  integrity sha512-/IBw1LLJIPQWTbHe8Ayc6tRi2W+MtbyTmX8obaBVmNWZfZEd8C5D+8PgQX5AwHM+xpph7WKIccvFu+ovhefZqA==
   dependencies:
     "@babel/runtime" "^7.25.7"
 
@@ -3308,10 +3308,10 @@
     "@testing-library/dom" "^10.0.0"
     "@types/react-dom" "^18.0.0"
 
-"@testing-library/user-event@^14.5.2":
-  version "14.5.2"
-  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-14.5.2.tgz#db7257d727c891905947bd1c1a99da20e03c2ebd"
-  integrity sha512-YAh82Wh4TIrxYLmfGcixwD18oIjyC1pFQC2Y01F2lzV2HTMiYrI0nze0FD0ocB//CKS/7jIUgae+adPqxK5yCQ==
+"@testing-library/user-event@^14.6.1":
+  version "14.6.1"
+  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-14.6.1.tgz#13e09a32d7a8b7060fe38304788ebf4197cd2149"
+  integrity sha512-vq7fv0rnt+QTXgPxr5Hjc210p6YKq2kmdziLgnsZGgLJ9e6VAShx1pACLuRjd/AS/sr7phAR58OIIpf0LlmQNw==
 
 "@tootallnate/once@1":
   version "1.1.2"
